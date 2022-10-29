@@ -15,9 +15,10 @@ body{
     background: #E5E5E5;
 }
 
-header{
+nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 
@@ -40,41 +41,18 @@ header{
     margin: 6px;
 }
 
-.links{
+.links a{
     padding: 28px;
     height: 24px;
     font-size: 16px;
     line-height: 24px;
     margin-right: 300px;
-}
-
-.home{
-    margin: 0 15px;
-    color: #667085;
     text-decoration: none;
-}
-
-.produtos{
-    margin: 0 15px;
+    margin-right: 2rem;
     color: #667085;
-    text-decoration: none;
 }
 
-.recursos{
-    margin: 0 15px;
-    color: #667085;
-    text-decoration: none;
-}
 
-.sobre{
- margin: 0 15px;
- color: #667085;
- text-decoration: none;
-}
-
-.botões{
-    padding: 28px;
-}
 
 .entrar{
     color: #667085;
