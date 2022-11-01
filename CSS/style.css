@@ -7,14 +7,14 @@
     outline: 0;
     border: none;
 }
-
+/*Corpo da página*/
 body{
     font-family: 'Inter', sans-serif;
     height: 100vh;
     width: 100%;
     background: #fff;
 }
-
+/*Barra de navegação da página juntamente com o logo e título dela*/
 nav{
     display: flex;
     justify-content: space-around;
@@ -23,30 +23,30 @@ nav{
 }
 
 .soon{
-    width: 27px;
-    height: 26.99px;
+    width: 1.688rem;
+    height: 1.687rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 26.5px;
+    padding: 1.656rem;
 }
 
 .name-logo{
     color:#3A404E;
-    width: 113px;
-    height: 24px;
+    width: 8.313rem;
+    height: 1.5rem;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    margin: 6px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin: 0.375rem;
 }
 
 .links a{
-    padding: 28px;
-    height: 24px;
-    font-size: 16px;
-    line-height: 24px;
-    margin-right: 300px;
+    padding: 1.75rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-right: 18.75rem;
     text-decoration: none;
     margin-right: 2rem;
     color: #667085;
@@ -56,11 +56,11 @@ nav{
 
 .log-in{
     color: #667085;
-    width: 47px;
-    height: 24px;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0 20px;
+    width: 2.938rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0 1.25rem;
     text-decoration: none;
 }
 
@@ -70,61 +70,61 @@ nav{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px 18px;
-    gap: 8px;
-    width: 112px;
-    height: 44px;
+    padding: 0.625rem 1.125rem;
+    gap: 0.5rem;
+    width: 7rem;
+    height: 2.75rem;
     border: 1px solid #8E2424;
     box-shadow: 0px 1px 2px;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     box-shadow: 0px 1px 2px;
     cursor: pointer;
 }
 
 .register{
     color: #fff;
-    width: 76px;
-    height: 24px;
-    font-size: 16px;
-    line-height: 24px;
+    width: 4.75rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
-
+/*Seção que informa mais sobre a empresa*/
 .about-us{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 96px 0px;
-    gap: 24px;
+    padding: 6rem 0px;
+    gap: 1.5rem;
 }
 
 .about-us span{
     color: #8E2424;
-    width: 78px;
-    height: 24px;
+    width: 4.875rem;
+    height: 1.5rem;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .about-us h1{
     color: #101828;
-    width: 603px;
-    height: 60px;
+    width: 37.688rem;
+    height: 3.75rem;
     font-weight: 600;
     font-size: 48px;
-    line-height: 60px;
+    line-height: 3.75rem;
 }
 
 .about-us p{
     color: #667085;
     width: 791px;
-    height: 60px;
+    height: 3.75rem;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     margin-top: 7px;
 }
-
+/*Seção onde é mostrada as métricas da empresa*/
 .container-metrics{
     display: flex;
     justify-content: center;
@@ -137,7 +137,7 @@ nav{
     width: 200px;
     height: 27px;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 72px;
 }
 
@@ -148,7 +148,7 @@ nav{
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 
 .metric-description{
@@ -157,7 +157,55 @@ nav{
     height: 48px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5rem;
     margin-top: 8px;
 }
 
+/*Seção de busca de talentos*/
+.container-talent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-talent h4{
+    background: rgba(142, 36, 36, 0.05);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    width: 101px;
+    height: 20px;
+    color: #8E2424;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.container-talent h3{
+    margin-top: 1rem;
+    width: 48rem;
+    height: 2.75rem;
+    color: #101828;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    text-align: center;
+}
+
+.container-talent span{
+    margin-top: 1.25rem;
+    width: 48rem;
+    height: 1.875rem;
+    color: #667085;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-align: center;
+}
+
+.container-talent img{
+    margin-top: 4rem;
+    width: 76rem;
+    height: 25rem;
+    left: 7rem;
+    top: 18.625rem;
+}
