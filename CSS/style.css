@@ -111,7 +111,7 @@ nav{
     width: 37.688rem;
     height: 3.75rem;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 3.75rem;
 }
 
@@ -120,45 +120,45 @@ nav{
     width: 791px;
     height: 3.75rem;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 7px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-top: 0.438rem;
 }
 /*Seção onde é mostrada as métricas da empresa*/
 .container-metrics{
     display: flex;
     justify-content: center;
-    padding: 0px 0px 96px;
-    gap: 64px;
+    padding: 0px 0px 6rem;
+    gap: 4rem;
 }
 
 .metric-stats{
     color: #8E2424;
-    width: 200px;
-    height: 27px;
+    width: 12.5rem;
+    height: 1.688rem;
     font-weight: 600;
     font-size: 3.75rem;
-    line-height: 72px;
+    line-height: 4.5rem;
 }
 
 .metric-title{
     color: #101828;
-    width: 280px;
-    height: 28px;
+    width: 17.5rem;
+    height: 1.75rem;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     margin-top: 3.75rem;
 }
 
 .metric-description{
     color: #667085;
-    width: 280px;
-    height: 48px;
+    width: 17.5rem;
+    height: 3rem;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5rem;
-    margin-top: 8px;
+    margin-top: 0.5rem;
 }
 
 /*Seção de busca de talentos*/
