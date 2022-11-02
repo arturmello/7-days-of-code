@@ -260,9 +260,61 @@ nav{
     height: 1.5rem;
 }
 
-
 .full{
     margin-right: 1.25rem;
 }
+/*Seção de depoimentos*/
+.container-testimonial{
+    background-color: rgba(196, 25, 25, 0.03);
+    border-radius: 1rem;
+    margin-top: 4.313rem;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    gap: 2rem;
+    text-align: center;
+}
 
+.container-testimonial h3{
+    color: #8E2424;
+    width: 68rem;
+    height: 1.25rem;
+    font-weight: 600;
+    font-size: 1,25rem;
+    line-height: 1.25rem;
+}
 
+.container-testimonial h2{
+    color: #101828;
+    width: 68rem;
+    height: 5.5rem;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+}
+
+.container-testimonial img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 12.5rem;
+}
+
+#name{
+    color: #101828;
+    width: 68rem;
+    height: 1.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#function{
+    color: #667085;
+    width: 68rem;
+    height: 1.25rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
