@@ -318,3 +318,78 @@ nav{
     font-size: 0.875rem;
     line-height: 1.25rem;
 }
+
+footer{
+    background: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 96px 0px;
+    gap: 2rem;
+    text-align: center;
+}
+
+footer h2{
+    color: #101828;
+    width: 48rem;
+    height: 2.75rem;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    letter-spacing: -0.02em;
+}
+
+#first{
+    color: #667085;
+    width: 48rem;
+     height: 1.875rem;
+     font-weight: 400;
+     font-size: 1.25rem;
+     line-height: 1.875rem;
+}
+
+form input{
+    gap: 0.5rem;
+    width: 22.5rem;
+    height: 3rem;
+    background: #fff;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px;
+    color: rgba(16, 24, 40, 0.05);
+    border-radius: 0.5rem;
+}
+
+form ::placeholder{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #667085;
+    padding-left: 1rem;
+}
+
+.register-button{
+    background-color:#8E2424;
+    color: #fff;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem 1.125rem;
+    gap: 0.5rem;
+    width: 7rem;
+    height: 2.75rem;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 1px 2px;
+    cursor: pointer;
+}
+
+#copy{
+    width: 24.563;
+    height: 1.5rem;
+    color: #98A2B3;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
